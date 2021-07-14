@@ -1,5 +1,6 @@
 import {BrowserRouter as Router,Route } from "react-router-dom"; 
 import Footer from "./Components/Footer";
+import List from "./Components/List";
 import "./App.css";
 import Home from "./Components/Home";
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="App"> 
      <Router>
          <Route exact path = "/" component ={Home} />
-         {/* <Route exact path = "/Contactus" component ={Contact} /> */}
+         <Route exact path = "/Emergency Contacts" component ={List} />
          </Router>
       <Footer/>
      
