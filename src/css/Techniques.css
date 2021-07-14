@@ -1,0 +1,25 @@
+.technique{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.video{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #ed5b2d;
+}
+
+.text{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #291b25
+}
+.video:hover{
+    box-shadow: 3px 5px 15px 5px  gray;
+}
