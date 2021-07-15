@@ -1,15 +1,15 @@
 var slides = [
     { 
-        text: '1/3',
-        image: '/images/1.jpg',
+        text: "1/3",
+        image: "/images/1.jpg",
     },
     { 
-        text:'2/3',
-        image: '/images/s.jpg',
+        text:"2/3",
+        image: "/images/s.jpg",
     },
     { 
-        text:'3/3',
-        image: '/images/sss.jpg',
+        text:"3/3",
+        image: "/images/sss.jpg",
     },
 ];
 

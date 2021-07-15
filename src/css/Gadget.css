@@ -8,9 +8,9 @@
 }
 
 /* Hide the images by default */
-.mySlides {
+/* .mySlides {
   display: none;
-}
+} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -94,7 +94,7 @@
 #Gadget{
 	text-align: center;
 	font-size: 50px;
-  padding:30x
+  padding:30px
 }
 /* body{
 	font: georgian;
@@ -102,7 +102,8 @@
 	background-color:#ff99ff;
 } */
 #gadget{
-	font-size: 20px;
+	font-size: 22px;
+
 }
 #gadgets{
 	color: #990000;

@@ -17,12 +17,12 @@ export default class Gadget extends React.Component{
                 <div className="numbertext">{slides.text}</div>
                 <img src={`..${slides.image}`} style={{ width: "100%" }} alt = ''/>
             </div>
-            <a className="prev" onclick="plusSlides(-1)">
+            {/* <a className="prev" onClick="plusSlides(-1)">
             ❮
             </a>
-            <a className="next" onclick="plusSlides(1)">
+            <a className="next" onClick="plusSlides(1)">
             ❯
-            </a>
+            </a> */}
         </div>
         <br />
         <div style={{ textAlign: "center" }}>
@@ -52,20 +52,27 @@ export default class Gadget extends React.Component{
 
         return <>
         <h2 id='gadgets'><u>{m.heading}</u></h2>
-        <p id='gadget'>
-            <img
-                src={`..${m.image}`}
-                alt={m.heading}
-                style={{ width: 200, height: 170, marginLeft: 15 }} />
+        <div style={{display: 'flex'}}>
+        <img
+            id = 'images'
+            src={`..${m.image}`}
+            alt={m.heading}
+            style={{ width: 400, height: 370, marginLeft: 15, marginTop:'2%' }} />
+            <br/><br/>
+        <p id='gadget' style={{marginTop: "5%", marginLeft:'15%', marginRight: "10%"}}>    
             {m.text}
         </p>
-        {m.links.map((r)=>{
-        return <p id = 'gadget'>
-                <a href={r.link}>
-                {r.text}
-                </a>
-                </p>
-            })}
+        </div>
+        <div style={{display:'flex',marginLeft:'50%'}}>
+            {m.links.map((r)=>{ 
+            return  <button id = 'gadget' style={{background:"#ed5b2d", width:"30%", height:'17%', marginLeft:'2%', borderRadius: "7px", border:"none"}}>
+                        <a href={r.link} style={{ color:"#f6f6e9",}} >
+                        {r.text}
+                        </a>
+                    </button>
+                })}
+        </div>
+        <br/><br/><br/><br/>
             </>
     })}
 </div>
