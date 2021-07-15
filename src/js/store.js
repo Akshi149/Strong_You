@@ -82,7 +82,7 @@ var items = [
     { 
         heading:"5.SMITH AND WESSON TACTICAL PEN",
         text: "As easily lost as pens are, Smith and Wesson might be on the wrong track with this one. Their tactical pen does, however, have its merits. The Smith and Wesson Tactical Pen can be used as both a regular pen and stylus for computer screens. Its striking tip can deliver a powerful blow, but the aluminum material used would be better suited as steel for self-defense." ,
-        image: "/images/hair-brush.jpg",
+        image: "/images/tac.jpg",
         links:
         [{
             text:"Buy from Amazon",

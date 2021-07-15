@@ -5,7 +5,7 @@ export default function Footer() {
     return(
     <footer id="footer">
       <div className="container">
-        <img src={logo} alt="" className="img-fluid" style= {{width:"13%"}}/>
+        <img src={logo} alt="" className="img-fluid" style= {{width:"10%"}}/>
         <h3> Strong You </h3>
         <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
         <div class="social-links">

@@ -14,7 +14,7 @@ var techniques = [
     { text : 'Alternative elbow strikes',
       video: "/videos/five.mp4"
     },
-    { text : 'Escape from a ‘bear hug attack’',
+    { text : 'Escape from ‘bear hug attack’',
       video: "/videos/six.mp4"
     },
     { text : 'Escape with hands trapped',
@@ -26,4 +26,3 @@ var techniques = [
   ]
   
   export default {techniques};
-  

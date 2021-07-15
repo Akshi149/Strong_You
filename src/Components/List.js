@@ -6,7 +6,8 @@ export default class List extends React.Component{
     return (
         <>
         <Navbar active = {"Emergency Contacts"}/>
-        <h1 style={{color:'black'}}>Emergency Contact List</h1>
+        <br/><br/><br/><br/>
+        <h1 style={{color:'#291b25', textAlign:'center'}}><u>EMERGENCY CONTACTS</u></h1>
 <table>
   <tr>
     <th>Sr.No</th>

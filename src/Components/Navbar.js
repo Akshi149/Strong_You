@@ -27,7 +27,7 @@ export default class Navbar extends React.Component{
               src={logo}
               alt=""
               className="img-fluid"
-              style={{ width: "10%", height: "12%" }}
+              style={{ width: "7.5%", height: "15%" }}
             />{" "}
             Strong You
           </a>
