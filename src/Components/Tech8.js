@@ -16,6 +16,9 @@ class Tech8 extends React.Component {
 
     render() {
         return (
+            <div id="tech4">
+            <Navbar />
+            <br/><br/><br/><br/>
            
                 <div className="Tech">
                     <h1 class="heading" style={{marginLeft : "130px"}}>Escape from side headlock</h1>
@@ -34,7 +37,8 @@ class Tech8 extends React.Component {
                     </ol>
 
                 </div>
-               
+                <br/><br/><br/><br/>
+                </div>
         )
 
     }

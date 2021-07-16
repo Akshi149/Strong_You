@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans'); */
 
 .report{
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
   outline: none;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
 }
 
 .wrapper{
@@ -13,7 +13,7 @@
   top: 64%;
   left: 20%;
   transform: translate(-50%,-50%);
-  max-width: 450px;
+  max-width: 400px;
   width: 100%;
   background: #ffff;
   padding: 25px;
@@ -86,9 +86,9 @@
 }
 #img{
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	padding-top: 100px;
-	padding-left: 600px;
+	padding-left: 550px;
 	padding-right: 160px;
 	
 }

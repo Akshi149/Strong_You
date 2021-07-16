@@ -21,7 +21,7 @@ class Techniques extends React.Component {
                     return  <div class="col-lg-3 col-md-6 col-sm-6 ">
                     <div class="parent">
                         <div class="technique">
-                        <a class="text" style={{color:'#291b25'}} href={`<Tech${index+1}/>`} >{m.text}</a>
+                        <a class="text" style={{color:'#291b25'}} href={`./Tech${index+1}`} >{m.text}</a>
                         <video class="video" src={`..${m.video}`} autoplay="true" muted loop></video> 
                         </div>
                         {index%4 === 3 && <br/>}

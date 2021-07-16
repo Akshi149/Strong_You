@@ -16,7 +16,9 @@ class Tech3 extends React.Component {
 
     render() {
         return (
-            
+            <div id="tech3">
+            <Navbar />
+            <br/><br/><br/><br/>
                 <div className="Tech" style={{height : "600px"}}>
                     <h1 class="heading" style={{marginLeft : "250px"}}>Heel palm strike</h1>
 
@@ -35,6 +37,8 @@ class Tech3 extends React.Component {
                         <li>This will cause your attacker to stagger backward, allowing you to escape their grasp.</li>
                     </ol>
 
+                </div>
+                <br/><br/><br/><br/>
                 </div>
                
         )

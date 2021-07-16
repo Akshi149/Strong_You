@@ -16,6 +16,9 @@ class Tech5 extends React.Component {
 
     render() {
         return (
+            <div id="tech4">
+            <Navbar />
+            <br/><br/><br/><br/>
             
                 <div className="Tech" style={{height : "680px"}} >
                     <h1 class="heading"  style={{marginLeft : "150px"}}>Alternative elbow strikes</h1>
@@ -40,7 +43,8 @@ class Tech5 extends React.Component {
                     </ol>
 
                 </div>
-                
+                <br/><br/><br/><br/>
+                </div>
         )
 
     }

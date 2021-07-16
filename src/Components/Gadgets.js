@@ -10,9 +10,10 @@ export default class Gadget extends React.Component{
         return(
     <div>  
         <Navbar active = {"Store"}/>
-        <br/><br/>
-        <h1 id = "Gadget" style={{color:'black'}}><u>Self Defence Gadgets</u>{" "}</h1>
-        <div className="slideshow-container">
+        <br/><br/><br/>
+        <h1 id = "Gadget" style={{color:'black'}}><u>SELF DEFENSE GADGETS</u>{" "}</h1>
+        <br/>
+        {/* <div className="slideshow-container">
             <div className="mySlides fade">
                 <div className="numbertext">{slides.text}</div>
                 <img src={`..${slides.image}`} style={{ width: "100%" }} alt = ''/>
@@ -23,13 +24,13 @@ export default class Gadget extends React.Component{
             <a className="next" onClick="plusSlides(1)">
             ❯
             </a> */}
-        </div>
+        {/* </div>
         <br />
         <div style={{ textAlign: "center" }}>
             <span className="dot" onclick="currentSlide(1)" />
             <span className="dot" onclick="currentSlide(2)" />
             <span className="dot" onclick="currentSlide(3)" />
-        </div>
+        </div> */} 
   {/* <style
     dangerouslySetInnerHTML={{
       __html:
@@ -48,6 +49,7 @@ export default class Gadget extends React.Component{
             Apart from knowing the art of self defense, having some effective self
             defense weapons will only help you in protecting yourself.
         </p>
+        <br/>
   { items.map((m)=>{
 
         return <>

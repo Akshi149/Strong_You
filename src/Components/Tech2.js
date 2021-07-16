@@ -11,6 +11,9 @@ class Tech2 extends React.Component {
 
     render() {
         return (
+            <div id="tech2">
+            <Navbar />
+            <br/><br/><br/><br/>
                 <div className="Tech">
                     <h1 class="heading">Groin kick</h1>
 
@@ -27,7 +30,8 @@ class Tech2 extends React.Component {
                         <li>Lift your dominant leg off the ground and begin to drive your knee upward.</li>
                         <li>Extend your dominant leg, drive hips forward, slightly lean back, and kick forcefully, making contact between your lower shin or ball of your foot and the attacker’s groin area.</li>
                     </ol>
-
+                </div>
+                <br/><br/><br/><br/>
                 </div>
         )
 

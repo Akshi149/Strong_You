@@ -16,6 +16,9 @@ class Tech4 extends React.Component {
 
     render() {
         return (
+            <div id="tech4">
+            <Navbar />
+            <br/><br/><br/><br/>
            
                 <div className="Tech">
                     <h1 class="heading">Elbow strike</h1>
@@ -35,7 +38,8 @@ class Tech4 extends React.Component {
                     </ol>
 
                 </div>
-                
+                <br/><br/><br/><br/>
+                </div>
         )
 
     }

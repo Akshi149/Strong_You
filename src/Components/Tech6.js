@@ -16,6 +16,9 @@ class Tech6 extends React.Component {
 
     render() {
         return (
+            <div id="tech4">
+            <Navbar />
+            <br/><br/><br/><br/>
            
                 <div className="Tech" style={{height : "530px"}}>
                     <h1 class="heading" style={{marginLeft : "120px"}}>Escape from a ‘bear hug attack’</h1>
@@ -35,7 +38,8 @@ class Tech6 extends React.Component {
                     </ol>
 
                 </div>
-               
+                <br/><br/><br/><br/>
+                </div>
         )
 
     }
