@@ -57,20 +57,21 @@ export default function About(){
           <div className="row content" data-aos="fade-up">
             <div className="col-lg-6">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+              Website to help women with handy knowledge on how to defend themselves while out in public
               </p>
               <ul>
-                <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                <li><i className="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                <li><i className="ri-check-double-line"></i> 
+The website contains various ways to help empower women in this new era
+  It contains different action-reaction techniques in form of GIFs to save time in case of emergency
+  </li>
+                <li><i className="ri-check-double-line"></i> It also includes emergency contacts of diffent areas
+   </li>
+                <li><i className="ri-check-double-line"></i> It also has a store page that shows diffrent types of materials that can be carried in daily life for safety purposes</li>
               </ul>
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0">
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+              Last but not the least the most important feature of this website is the report portal where the user can submit report with relevant informations and this report will be shared with nearby NGOs or police so that help can reach them in time.
               </p>
               <a href="." className="btn-learn-more">Learn More</a>
             </div>

@@ -53,6 +53,7 @@ export default class Report extends React.Component {
         )}
     render() {
         return(
+
 <div className = 'report'>
     <Navbar active = {"Report"}/>
     <div class="wrapper">
