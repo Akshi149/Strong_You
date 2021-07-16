@@ -11,6 +11,7 @@ export default class Navbar extends React.Component{
         'Techniques', 
         'Store',
         'Emergency Contacts',
+        'Report'
       ];
   
     return(

@@ -8,7 +8,7 @@ var technique = Videos.techniques;
 class Techniques extends React.Component {
     render() {
         return (
-            <div>
+            <div id = 'tech'>
                 <Navbar acive ={'Techniques'}/>
                 <br/><br/><br/><br/>
                 <div>
@@ -21,15 +21,22 @@ class Techniques extends React.Component {
                     return  <div class="col-lg-3 col-md-6 col-sm-6 ">
                     <div class="parent">
                         <div class="technique">
-                        <div class="text" style={{color:'#291b25'}}>{m.text}</div>
-                        <video class="video" src={`..${m.video}`} autoplay="true" muted loop></video>
+                        <a class="text" style={{color:'#291b25'}} href={`<Tech${index+1}/>`} >{m.text}</a>
+                        <video class="video" src={`..${m.video}`} autoplay="true" muted loop></video> 
                         </div>
                         {index%4 === 3 && <br/>}
                         </div>
                         </div>
                 })}
                     </div>
-                    </div>
+                </div>
+                {/* <Tech2/>
+                <Tech3/>
+                <Tech4/>
+                <Tech5/>
+                <Tech6/>
+                <Tech7/>
+                <Tech8/> */}
             </div>
         )
 
